@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo {
 	position: absolute;
-	top: 40px;
+	top: 90px;
 	width: 100%;
 	height: 190px;
 	background: rgba(255, 255, 255, .90) url('../img/logos/logo-creaprac.png') no-repeat center center;
@@ -48,6 +48,79 @@ h1, h2, h3, h4, h5, h6 {
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
+}
+
+.back-black {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: 
+	rgba(0, 0, 0, .25);
+	top: 0;
+}
+
+nav {
+	position: relative;
+	width: 100%; /*width: 960px;*/
+	margin: 370px auto 0 auto;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+
+ul > li {
+	display: inline-block;
+	padding: 8px 8px 4px;
+}
+
+ul > li:hover {
+	background-color: rgb(27, 117, 187);
+}
+
+ul > li.carousel:hover {
+	background-color: white;
+}
+
+ul > li > a {
+	display: inline-block;
+}
+
+ul > li > a > figure {
+	position: relative;
+}
+
+.flag {
+	width: 297px;
+	height: 170px;
+}
+
+#flag_MX {
+	background-image: url(../img/flags/flag-mx.jpg);
+}
+
+#flag_US {
+	background-image: url(../img/flags/flag-us.jpg);
+}
+
+#flag_PT {
+	background-image: url(../img/flags/flag-pt.jpg);
+}
+
+ul > li > a > figure > figcaption {
+	position: absolute;
+	bottom: 1em;
+	left: 1em;
+	padding: 1em;
+	background-color: rgba(0, 0, 0, .75);
+	color: white;
+	text-align: left;
+}
+
+ul > li > a > figure > figcaption > h3 {
+	margin: 0;
 }
 
 footer {
@@ -78,4 +151,26 @@ footer >  .designed:hover {
 footer > h6 {
 	margin: 1em;
 	letter-spacing: 0.1em;
+}
+
+@media (max-height: 600px) {
+	.logo {
+		top: 60px;
+	}
+	
+	nav {
+		margin-top: 320px;
+	}
+}
+
+@media (min-width: 1200px) {
+	nav > ul > li {
+		margin: 0 20px;
+	}
+}
+
+@media (max-width: 960px) {
+	nav {
+		margin-top: 300px;
+	}
 }
