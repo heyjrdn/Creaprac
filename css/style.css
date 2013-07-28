@@ -1,0 +1,48 @@
+/* @group TypeKit FOAT */
+
+.wf-loading {
+	visibility: hidden;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.wf-active {
+	visibility: visible;
+}
+
+/* @end */
+
+/* @group Root Changes */
+
+html {
+	font-weight: 300;
+	font-style: normal;
+	font-family: "proxima-nova",sans-serif;
+	word-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	position: relative;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+h1 {
+	color: rgb(27, 117, 187);
+}
+
+
+header {
+	overflow: hidden;
+}
+
+footer {
+	overflow: hidden;
+}
+
+/* @end */
+
+.container {
+	position: relative;
+	width: 960px;
+	margin: 0 auto;
+}
