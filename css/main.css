@@ -80,10 +80,6 @@ ul > li:hover {
 	background-color: rgb(27, 117, 187);
 }
 
-ul > li.carousel:hover {
-	background-color: white;
-}
-
 ul > li > a {
 	display: inline-block;
 }
@@ -111,8 +107,8 @@ ul > li > a > figure {
 
 ul > li > a > figure > figcaption {
 	position: absolute;
-	bottom: 1em;
-	left: 1em;
+	bottom: 0.5em;
+	left: 0.5em;
 	padding: 1em;
 	background-color: rgba(0, 0, 0, .75);
 	color: white;
