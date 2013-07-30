@@ -24,25 +24,134 @@ h1, h2, h3, h4, h5, h6 {
 	position: relative;
 	text-transform: uppercase;
 	font-weight: 600;
-}
-
-h1 {
 	color: rgb(27, 117, 187);
 }
 
-
-header {
+header.main {
 	overflow: hidden;
+	background-color: white;
+	box-shadow:0 0 5px 1px rgba(0,0,0,0.3);
+	border-top: 6px solid rgb(27, 117, 187);;
 }
 
 footer {
 	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+	background-color: #111;
+	width: 100%;
+	color: rgb(255, 255, 255);
+	height: 50px;
 }
-
-/* @end */
 
 .container {
 	position: relative;
 	width: 960px;
 	margin: 0 auto;
+}
+
+div.main.container {
+	overflow: hidden;
+	margin-bottom: 71px; /*same height as top side*/
+}
+
+body {
+	background-color: rgb(240, 240, 240);
+}
+
+header.main .logo {
+	margin: 20px 0;
+}
+
+header.main nav {
+	display: block;
+	position: relative;
+	border-top: 2px solid #F3F3F3;
+	padding: 15px 0;
+}
+
+header.main nav > ul {
+	display: table;
+	text-align: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border-right: 1px solid #F3F3F3;
+}
+
+header.main nav > ul > li {
+	display: table-cell;
+	width: 136.857142857px;
+	vertical-align: middle;
+	border-left: 1px solid #F3F3F3;
+}
+
+header.main nav > ul > li > a {
+	text-decoration: none;
+	color: #666;
+	display: block;
+	padding: 10px 0;
+	font-weight: 400;
+}
+
+header.main nav > ul > li > a.active {
+	color: rgb(27, 117, 187);
+	cursor: default;
+}
+
+header.main nav > ul > li > a:hover {
+	color: rgb(27, 117, 187);
+}
+
+/* @end */
+
+/*********************************************/
+
+body[role=index] div.main.container aside {
+	float: left;
+	width: 233px;
+	padding-right: 32px;
+}
+
+body[role=index] div.main.container section {
+	float: right;
+	width: 695px;
+}
+
+body[role=index] div.main.container section p {
+	font-family: "minion-pro",sans-serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 1.16em;
+}
+
+body[role=index] div.main.container section p:first-child {
+	margin-top: 0;
+}
+
+body[role=index] div.main.container header.page {
+	margin: 1.5em 0;
+}
+
+body[role=index] div.main.container .warehouse {
+	text-align: right;
+}
+
+body[role=index] div.main.container .warehouse h4 {
+	margin-bottom: 0;
+}
+
+body[role=index] div.main.container .warehouse .phone
+,body[role=index] div.main.container .warehouse .fax {
+	display: block;
+}
+
+body[role=index] div.main.container .warehouse .phone::before {
+	content: 'T. ';
+}
+
+body[role=index] div.main.container .warehouse .fax::before {
+	content: 'Fax. ';
 }
