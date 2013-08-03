@@ -13,6 +13,12 @@
 
 /* @group Root Changes */
 
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 html {
 	font-weight: 300;
 	font-style: normal;
@@ -20,18 +26,15 @@ html {
 	word-wrap: break-word;
 }
 
+body {
+	background-color: rgb(240, 240, 240);
+}
+
 h1, h2, h3, h4, h5, h6 {
 	position: relative;
 	text-transform: uppercase;
 	font-weight: 600;
 	color: rgb(27, 117, 187);
-}
-
-header.main {
-	overflow: hidden;
-	background-color: white;
-	box-shadow:0 0 5px 1px rgba(0,0,0,0.3);
-	border-top: 6px solid rgb(27, 117, 187);;
 }
 
 footer {
@@ -45,6 +48,16 @@ footer {
 	color: rgb(255, 255, 255);
 	height: 50px;
 }
+/* @end */
+
+/* @group General */
+
+header.main {
+	overflow: hidden;
+	background-color: white;
+	box-shadow:0 0 5px 1px rgba(0,0,0,0.3);
+	border-top: 6px solid rgb(27, 117, 187);;
+}
 
 .container {
 	position: relative;
@@ -55,10 +68,6 @@ footer {
 div.main.container {
 	overflow: hidden;
 	margin-bottom: 71px; /*same height as top side*/
-}
-
-body {
-	background-color: rgb(240, 240, 240);
 }
 
 header.main .logo {
@@ -105,13 +114,64 @@ header.main nav > ul > li > a:hover {
 	color: rgb(27, 117, 187);
 }
 
+.btn {
+	display: inline-block;
+	padding: 8px 12px;
+	margin-bottom: 0;
+	line-height: 1.428571429;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #ffffff;
+	background-color: #428bca;
+	border-color: #428bca;
+}
+
+.btn:hover {
+	background-color: #357ebd;
+	border-color: #3071a9;
+}
+
+.alert {
+	position: relative;
+	margin: 20px 0;
+	padding: 15px 30px 15px 15px;
+	border-left: 5px solid #eee;
+	background-color: rgb(242, 222, 222);
+	border-color: rgb(186, 19, 27);
+}
+
+.alert h1 {
+	font-size: 1.5em;
+	margin: 0;
+	color: rgb(186, 19, 27);
+}
+
+.alert p {
+	margin: 0;
+}
+
+.alert button.close {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	background: transparent;
+	border: 0;
+	font-size: 1.5em;
+	color: rgb(186, 19, 27);
+	padding: 0;
+}
+
 /* @end */
 
-/*********************************************/
+/* @group INDEX */
 
 body[role=index] div.main.container aside {
 	float: left;
-	width: 233px;
+	width: 265px;
 	padding-right: 32px;
 }
 
@@ -155,3 +215,70 @@ body[role=index] div.main.container .warehouse .phone::before {
 body[role=index] div.main.container .warehouse .fax::before {
 	content: 'Fax. ';
 }
+
+/* @end */
+
+/* @group CONTACT */
+
+body[role=contact] div.main.container form .row {
+	margin: 20px 0;
+	position: relative;
+}
+
+body[role=contact] div.main.container form .row label.required::after {
+	content: ' *';
+	color: rgb(186, 19, 27);
+}
+
+body[role=contact] div.main.container form .row label {
+	position: relative;
+	display: inline-block;
+	margin-right: 10px;
+	width: 80px;
+	text-align: right;
+	vertical-align: top;
+	margin-top: 6px;
+}
+
+body[role=contact] div.main.container form .row.input1 label
+,body[role=contact] div.main.container form .row.input2 label:first-of-type {
+	margin-left: 170px;
+}
+
+body[role=contact] div.main.container form .row.input2 label:last-of-type {
+	margin-left: 20px;
+}
+
+body[role=contact] div.main.container form .row.input1 input
+,body[role=contact] div.main.container form .row.input1 textarea {
+	width: 526px;
+}
+
+body[role=contact] div.main.container form .row.input2 input {
+	width: 204px;
+}
+
+body[role=contact] div.main.container form .row.button {
+	text-align: center;
+}
+
+body[role=contact] div.main.container form .row.button .btn {
+	padding: 12px 24px;
+}
+
+body[role=contact] div.main.container form input
+,body[role=contact] div.main.container form textarea {
+	 padding: 4px 6px;
+	 line-height: 1.428571429;
+	 color: #555555;
+	 vertical-align: middle;
+	 background-color: #ffffff;
+	 border: 1px solid #cccccc;
+	 border-radius: 4px;
+	 -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	         box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	 -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+	         transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+/* @end */
