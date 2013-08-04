@@ -37,6 +37,10 @@ h1, h2, h3, h4, h5, h6 {
 	color: rgb(27, 117, 187);
 }
 
+a {
+	color: rgb(27, 117, 187);
+}
+
 footer {
 	overflow: hidden;
 	position: fixed;
@@ -282,3 +286,36 @@ body[role=contact] div.main.container form input
 }
 
 /* @end */
+
+body[role=catalog] div.main.container .center-content {
+	width: 620px;
+	margin: 0px auto 0 auto;
+	overflow: hidden;
+}
+
+body[role=catalog] div.main.container .center-content p
+,body[role=catalog] div.main.container .center-content figcaption {
+	text-align: center;
+}
+
+body[role=catalog] div.main.container .center-content figure {
+	margin-top: 30px;
+}
+
+body[role=catalog] div.main.container .center-content figure .download-icon {
+	width: 131.5px;
+	height: 91px;
+	display: block;
+	margin: 0 auto 10px auto; /*TRBL*/
+	background: transparent url('../img/icons/cloud_download.png') no-repeat;
+	background-position: top left;
+}
+
+body[role=catalog] div.main.container .center-content figure:hover .download-icon {
+	background-position: top right;
+}
+
+body[role=catalog] div.main.container .center-content a:hover {
+	color: rgb(89, 143, 0);
+}
+
