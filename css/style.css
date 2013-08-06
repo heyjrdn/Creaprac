@@ -224,9 +224,10 @@ body[role=index] div.main.container .warehouse .fax::before {
 
 /* @group CONTACT */
 
-body[role=contact] div.main.container form .row {
+/*body[role=contact] div.main.container form .row*/ .row {
 	margin: 20px 0;
 	position: relative;
+	width: 100%;
 }
 
 body[role=contact] div.main.container form .row label.required::after {
@@ -287,6 +288,8 @@ body[role=contact] div.main.container form input
 
 /* @end */
 
+/* @group CATALOG */
+
 body[role=catalog] div.main.container .center-content {
 	width: 620px;
 	margin: 0px auto 0 auto;
@@ -316,6 +319,43 @@ body[role=catalog] div.main.container .center-content figure:hover .download-ico
 }
 
 body[role=catalog] div.main.container .center-content a:hover {
+	color: rgb(89, 143, 0);
+}
+
+/* @end */
+
+body[role=cardboards] div.main.container .row {
+	margin-bottom: 50px;
+}
+
+body[role=cardboards] div.main.container .row:last-of-type {
+	margin-bottom: 20px;
+}
+
+body[role=cardboards] div.main.container .row .mini-cardboard {
+	display: inline-block;
+	width: 317px;
+	text-align: center;
+}
+
+body[role=cardboards] div.main.container .row .mini-cardboard a {
+	text-decoration: none;
+}
+
+body[role=cardboards] div.main.container .row .mini-cardboard a figcaption {
+	color: rgb(27, 117, 187);
+}
+
+body[role=cardboards] div.main.container .row .mini-cardboard a .impact-heading {
+	font-weight: 600;
+}
+
+body[role=cardboards] div.main.container .row .mini-cardboard a:hover {
+	text-decoration: underline;
+	color: rgb(89, 143, 0);
+}
+
+body[role=cardboards] div.main.container .row .mini-cardboard a:hover figcaption {
 	color: rgb(89, 143, 0);
 }
 
