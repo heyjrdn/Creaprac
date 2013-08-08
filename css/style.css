@@ -363,3 +363,118 @@ body[role=cardboards] div.main.container .row .mini-cardboard a:hover figcaption
 
 /* @end */
 
+body[role=products] div.main.container .carousel {
+	position: relative;
+	width: 960px;
+	height: 632px;
+	margin: 0 auto;
+	padding: 0;
+	/*background-color: #F00;*/
+}
+
+body[role=products] div.main.container .carousel > .products {
+	position: relative;
+	width: 870px;
+	height: 600px;
+	top: 0;
+	left: 45px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+body[role=products] div.main.container .carousel > .products > ul {
+	list-style: none;
+	position: relative;
+	height: 600px;
+	width: 5220px; /*870 x pages*/
+	margin: 0;
+	padding: 0;
+}
+
+body[role=products] div.main.container .carousel > .products > ul > li {
+	position: relative;
+	display: block;
+	width: 290px;
+	height: 300px;
+	float: left;
+}
+
+body[role=products] div.main.container .carousel > .products > ul > li > a {
+	position: absolute;
+	width: 240px;
+	height: 270px;
+	left: 25px;
+	top: 15px;
+}
+
+body[role=products] div.main.container .carousel > .pager > ul {
+	list-style: none;
+	text-align: center;
+	position: relative;
+	left: 0;
+	top: 0;
+	margin: 0;
+	padding: 0;
+	height: 32px;
+}
+
+body[role=products] div.main.container .carousel > .pager > ul > li {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+}
+
+body[role=products] div.main.container .carousel .pager .pager-list {
+	display: block;
+	width: 32px;
+	height: 32px;
+	background: url('../img/icons/carousel_navigation.png') no-repeat transparent;
+}
+
+body[role=products] div.main.container .carousel .pager #pag1 {	background-position: 1px -41px; }
+body[role=products] div.main.container .carousel .pager #pag2 {	background-position: -31px -41px; }
+body[role=products] div.main.container .carousel .pager #pag3 {	background-position: -63px -41px; }
+body[role=products] div.main.container .carousel .pager #pag4 {	background-position: -95px -41px; }
+body[role=products] div.main.container .carousel .pager #pag5 {	background-position: -127px -41px; }
+body[role=products] div.main.container .carousel .pager #pag6 {	background-position: 1px -73px; }
+body[role=products] div.main.container .carousel .pager #pag7 {	background-position: -31px -73px; }
+body[role=products] div.main.container .carousel .pager #pag8 {	background-position: -63px -73px; }
+body[role=products] div.main.container .carousel .pager #pag9 {	background-position: -95px -73px; }
+body[role=products] div.main.container .carousel .pager #pag10 { background-position: -127px -73px; }
+
+body[role=products] div.main.container .carousel .pager #pag1:hover {	background-position: 1px -105px; }
+body[role=products] div.main.container .carousel .pager #pag2:hover {	background-position: -31px -105px; }
+body[role=products] div.main.container .carousel .pager #pag3:hover {	background-position: -63px -105px; }
+body[role=products] div.main.container .carousel .pager #pag4:hover {	background-position: -95px -105px; }
+body[role=products] div.main.container .carousel .pager #pag5:hover {	background-position: -127px -105px; }
+body[role=products] div.main.container .carousel .pager #pag6:hover {	background-position: 1px -137px; }
+body[role=products] div.main.container .carousel .pager #pag7:hover {	background-position: -31px -137px; }
+body[role=products] div.main.container .carousel .pager #pag8:hover {	background-position: -63px -137px; }
+body[role=products] div.main.container .carousel .pager #pag9:hover {	background-position: -95px -137px; }
+body[role=products] div.main.container .carousel .pager #pag10:hover { background-position: -127px -137px; }
+
+body[role=products] div.main.container .carousel .pager #pag1.active {	background-position: 1px -105px; }
+body[role=products] div.main.container .carousel .pager #pag2.active {	background-position: -31px -105px; }
+body[role=products] div.main.container .carousel .pager #pag3.active {	background-position: -63px -105px; }
+body[role=products] div.main.container .carousel .pager #pag4.active {	background-position: -95px -105px; }
+body[role=products] div.main.container .carousel .pager #pag5.active {	background-position: -127px -105px; }
+body[role=products] div.main.container .carousel .pager #pag6.active {	background-position: 1px -137px; }
+body[role=products] div.main.container .carousel .pager #pag7.active {	background-position: -31px -137px; }
+body[role=products] div.main.container .carousel .pager #pag8.active {	background-position: -63px -137px; }
+body[role=products] div.main.container .carousel .pager #pag9.active {	background-position: -95px -137px; }
+body[role=products] div.main.container .carousel .pager #pag10.active { background-position: -127px -137px; }
+
+body[role=products] div.main.container .carousel > .pager-btn {
+	position: absolute;	background: url('../img/icons/carousel_navigation.png') no-repeat transparent;	height: 40px;	width: 40px;	cursor: pointer;
+}
+
+body[role=products] div.main.container .carousel > #pager_left {
+	top: 280px;
+	left: 5px;	background-position: 0px 0px;
+}body[role=products] div.main.container .carousel > #pager_left:hover {	background-position: -84px 0px;}
+
+body[role=products] div.main.container .carousel > #pager_right {
+	top: 280px;
+	right: 5px;	background-position: -42px 0px;
+}body[role=products] div.main.container .carousel > #pager_right:hover {	background-position: -126px 0px;}
