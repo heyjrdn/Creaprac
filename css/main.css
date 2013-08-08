@@ -128,7 +128,7 @@ footer {
 	text-align: right;
 }
 
-footer >  .designed {
+footer > .designed {
 	float: left;
 	margin: 7px 0 7px 15px;
 	padding: 0;
@@ -140,7 +140,7 @@ footer >  .designed {
 	transition: color 350ms ease-in;
 }
 
-footer >  .designed:hover {
+footer > .designed:hover {
 	color: rgb(255, 255, 255);
 }
 
