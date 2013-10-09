@@ -60,7 +60,8 @@ header.main {
 	overflow: hidden;
 	background-color: white;
 	box-shadow:0 0 5px 1px rgba(0,0,0,0.3);
-	border-top: 6px solid rgb(27, 117, 187);;
+	border-top: 6px solid rgb(27, 117, 187);
+	min-width: 960px;
 }
 
 .container {
@@ -167,7 +168,7 @@ header.main nav > ul > li > a:hover {
 	font-size: 1.5em;
 	color: rgb(186, 19, 27);
 	padding: 0;
-}.row {	margin: 20px 0;	overflow: hidden;	position: relative;	width: 100%;	clear: both;}.row .col1,.row .col2,.row .col3,.row .col4,.row .col5,.row .col6,.row .col7,.row .col8,.row .col9,.row .col10,.row .col11,.row .col12 {	position: relative;	min-height: 1px;	float: left;	background-color: red;}/*.col1 { width: 8.333333333333332%; }.col2 { width: 16.666666667%; }.col3 { width: 25%; }.col4 { width: 33.33333333333333%; }.col5 { width: 41.66666666666667%; }.col6 { width: 50%; }.col7 { width: 58.333333333333336%; }.col8 { width: 66.66666666666666%; }.col9 { width: 75%; }.col10 { width: 83.33333333333334%; }.col11 { width: 91.66666666666666%; }.col12 { width: 100%; }*/
+}.row {	margin: 20px 0;	overflow: hidden;	position: relative;	width: 100%;	clear: both;}.row-product {	margin: 40px 0;}.row .col1,.row .col2,.row .col3,.row .col4,.row .col5,.row .col6,.row .col7,.row .col8,.row .col9,.row .col10,.row .col11,.row .col12 {	position: relative;	min-height: 1px;	float: left;}/*.col1 { width: 8.333333333333332%; }.col2 { width: 16.666666667%; }.col3 { width: 25%; }.col4 { width: 33.33333333333333%; }.col5 { width: 41.66666666666667%; }.col6 { width: 50%; }.col7 { width: 58.333333333333336%; }.col8 { width: 66.66666666666666%; }.col9 { width: 75%; }.col10 { width: 83.33333333333334%; }.col11 { width: 91.66666666666666%; }.col12 { width: 100%; }*/
 .col1 { width: 80px; }.col2 { width: 160px; }.col3 { width: 240px; }.col4 { width: 320px; }.col5 { width: 400px; }.col6 { width: 480px; }.col7 { width: 560px; }.col8 { width: 640px; }.col9 { width: 720px; }.col10 { width: 800px; }.col11 { width: 880px; }.col12 { width: 960px; }
 /* @end */
 
@@ -197,6 +198,7 @@ body[role=index] div.main.container section p:first-child {
 
 body[role=index] div.main.container header.page {
 	margin: 1.5em 0;
+	
 }
 
 body[role=index] div.main.container .warehouse {
@@ -348,16 +350,16 @@ body[role=cardboards] div.main.container .row .mini-cardboard a .impact-heading 
 
 body[role=cardboards] div.main.container .row .mini-cardboard a:hover {
 	text-decoration: underline;
-	color: rgb(89, 143, 0);
+	/*color: rgb(89, 143, 0);*/
+	color: rgb(140, 3, 3);
 }
 
 body[role=cardboards] div.main.container .row .mini-cardboard a:hover figcaption {
-	color: rgb(89, 143, 0);
+	/*color: rgb(89, 143, 0);*/
+	color: rgb(140, 3, 3);
 }
 
-/* @end */
-
-body[role=products] div.main.container .carousel {
+/* @end *//* @group PRODUCTS */body[role=products] div.main.container .carousel {
 	position: relative;
 	width: 960px;
 	height: 632px;
@@ -384,7 +386,7 @@ body[role=products] div.main.container .carousel > .products > ul {
 	width: 5220px; /*870 x pages*/
 	margin: 0;
 	padding: 0;
-}
+}body[role=products] div.main.container .carousel .products ul  img {	border: 3px solid rgb(240, 240, 240);}body[role=products] div.main.container .carousel .products ul  img:hover {	border: 3px solid rgb(27, 117, 187);}
 
 body[role=products] div.main.container .carousel > .products > ul > li {
 	position: relative;
@@ -396,10 +398,10 @@ body[role=products] div.main.container .carousel > .products > ul > li {
 
 body[role=products] div.main.container .carousel > .products > ul > li > a {
 	position: absolute;
-	width: 240px;
-	height: 270px;
-	left: 25px;
-	top: 15px;
+	width: 246px;
+	height: 276px;
+	left: 21px;
+	top: 12px;
 }
 
 body[role=products] div.main.container .carousel > .pager > ul {
@@ -471,4 +473,4 @@ body[role=products] div.main.container .carousel > #pager_left {
 body[role=products] div.main.container .carousel > #pager_right {
 	top: 280px;
 	right: 5px;	background-position: -42px 0px;
-}body[role=products] div.main.container .carousel > #pager_right:hover {	background-position: -126px 0px;}body[role=each-product] div.main.container header.product {	position: relative;	width: 960px;	height: 200px;	margin: 30px 0;}body[role=each-product] div.main.container header.product .text {	position: absolute;	display: inline-block;	top: 0;	left: 398px;	width: 558px;	height: 200px;	padding: 34.5px 10px;	text-align: center;	background-color: rgb(136, 173, 219);	background-image: -ms-linear-gradient(right, #F0F0F0 0%, #88ADDB 100%);	background-image: -moz-linear-gradient(right, #F0F0F0 0%, #88ADDB 100%);	background-image: -o-linear-gradient(right, #F0F0F0 0%, #88ADDB 100%);	background-image: -webkit-gradient(linear, right top, left top, color-stop(0, #F0F0F0), color-stop(1, #88ADDB));	background-image: -webkit-linear-gradient(right, #F0F0F0 0%, #88ADDB 100%);	background-image: linear-gradient(to left, #F0F0F0 0%, #88ADDB 100%);	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#F0F0F0', endColorstr='#88ADDB', gradientType='1')";} body[role=each-product] div.main.container header.product .text h1,body[role=each-product] div.main.container header.product .text h2,body[role=each-product] div.main.container header.product .text h3 {	margin: 0;	padding: 0;}body[role=each-product] div.main.container header.product .text h1 {	font-family: Impact;	font-size: 3em;	margin-bottom: 10px;}body[role=each-product] div.main.container header.product .text h2 {	font-size: 1.1em;	font-weight: 600;}
+}body[role=products] div.main.container .carousel > #pager_right:hover {	background-position: -126px 0px;}/* @end *//* @group Each Product */body[role=each-product] div.main.container header.product {	position: relative;	width: 960px;	height: 200px;	margin: 30px 0;}body[role=each-product] div.main.container header.product .text {	position: absolute;	display: inline-block;	top: 0;	left: 398px;	width: 558px;	height: 200px;	padding: 34.5px 10px;	text-align: center;	background-color: rgb(136, 173, 219);	background-image: -ms-linear-gradient(right, #F0F0F0 0%, #88ADDB 100%);	background-image: -moz-linear-gradient(right, #F0F0F0 0%, #88ADDB 100%);	background-image: -o-linear-gradient(right, #F0F0F0 0%, #88ADDB 100%);	background-image: -webkit-gradient(linear, right top, left top, color-stop(0, #F0F0F0), color-stop(1, #88ADDB));	background-image: -webkit-linear-gradient(right, #F0F0F0 0%, #88ADDB 100%);	background-image: linear-gradient(to left, #F0F0F0 0%, #88ADDB 100%);	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#F0F0F0', endColorstr='#88ADDB', gradientType='1')";} body[role=each-product] div.main.container header.product .text h1,body[role=each-product] div.main.container header.product .text h2,body[role=each-product] div.main.container header.product .text h3 {	margin: 0;	padding: 0;}body[role=each-product] div.main.container header.product .text h1 {	font-family: Impact;	font-size: 3em;	margin-bottom: 10px;}body[role=each-product] div.main.container header.product .text h2 {	font-size: 1.1em;	font-weight: 600;}/* @end */body[role=each-product] div.main.container figure.product-show {	text-align: center;	font-weight: 600;}body[role=each-product] div.main.container figure.product-show img {	margin: 0 auto;}
