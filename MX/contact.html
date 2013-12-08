@@ -6,12 +6,12 @@
 	<meta name="author" content="Fox Dezign">
 	<meta name="description" content="CREAPRAC nace en 1989 ofreciendo productos para facilitar la instalación de recubrimientos de cerámica, de porcelana y de piedra con el objetivo de lograr instalaciones impecables y duraderas.">
 	<meta name="keywords" content="creaciones, practicas, creaprac, accesorio, hogar, belleza, decoracion, pared, piso, azulejo, color">
-	
+
 	<title>Creaprac | Cont&aacute;ctanos</title>
-	
+
 	<link rel="stylesheet" href="../css/normalize.min.css" />
 	<link rel="stylesheet" href="../css/style.css" />
-	
+
 	<!--[if lt IE 9]>
 		<script async src="../js/html5shiv-printshiv.min.js"></script>
 		<script async src="../js/respond.min.js"></script>
@@ -34,57 +34,69 @@
 			</nav>
 		</div>
 	</header>
-	
+
 	<div class="main container">
 		<div class="alert">
-			<button type="button" class="close" id="cierra">&times;</button>
+			<button type="button" class="close" id="_cierra">&times;</button>
 			<h1>Error!</h1>
-			<p>Debes de introducir el nombre.</p>
+			<ul>
+				<li id="_error1">Debes de introducir un nombre.</li>
+				<li id="_error2">Debes introducir un correo electr&oacute;nico.</li>
+				<li id="_error3">El correo electr&oacute;nico es inv&aacute;lido.</li>
+				<li id="_error4">Debes introducir un tel&eacute;fono.</li>
+				<li id="_error5">El tel&eacute;fono solo debe contener n&uacute;meros.</li>
+				<li id="_error6">Debes de introducir una empresa.</li>
+				<li id="_error7">Debes de introducir una ciudad.</li>
+				<li id="_error8">Debes de introducir un estado.</li>
+				<li id="_error9">Debes de introducir un pa&iacute;s.</li>
+				<li id="_error10">Debes de introducir un mensaje.</li>
+			</ul>
 		</div>
-	
+
 		<h1>Cont&aacute;ctenos</h1>
 		<form method="post" action="">
 			<div class="row input1">
 				<label for="name" class="required">Nombre</label>
-				<input type="text" name="name" value="" required />
+				<input type="text" name="first" id="_first" value="" required />
 			</div>
 			<div class="row input2">
 				<label for="name" class="required">Email</label>
-				<input type="text" name="name" value="" required />
+				<input type="email" name="email" id="_email" value="" required />
 				<label for="name" class="required">Tel&eacute;fono</label>
-				<input type="text" name="name" value="" required />
+				<input type="tel" name="phone" id="_phone" value="" required />
 			</div>
 			<div class="row input1">
 				<label for="name" class="required">Empresa</label>
-				<input type="text" name="name" value="" required />
+				<input type="text" name="company" id="_company" value="" required />
 			</div>
 			<div class="row input1">
 				<label for="name" class="required">Ciudad</label>
-				<input type="text" name="name" value="" required />
+				<input type="text" name="city" id="_city" value="" required />
 			</div>
 			<div class="row input2">
 				<label for="name" class="required">Estado</label>
-				<input type="text" name="name" value="" required />
+				<input type="text" name="state" id="_state" value="" required />
 				<label for="name" class="required">Pa&iacute;s</label>
-				<input type="text" name="name" value="" required />
+				<input type="text" name="country" id="_country" value="" required />
 			</div>
 			<div class="row input1">
 				<label for="name" class="required">Asunto</label>
-				<textarea rows="5"></textarea>
+				<textarea rows="5" name="message" id="_message"></textarea>
 			</div>
 			<div class="row button">
 				<button class="btn" id="_enviarMensaje">Enviar Mensaje</button>
 			</div>
 		</form>
 	</div>
-	
+
 	<footer>
 		<div class="container">
 			<p>&copy; 2013 Creaciones Practicas S.A. de C.V. Todos los derechos reservados.</p>
 		</div>
 	</footer>
-	
+
 	<script async src="../js/typekit.min.js"></script>
+	<script async src="../js/jquery.min.js"></script>
 	<script async src="../js/script.js"></script>
 </body>
 </html>
