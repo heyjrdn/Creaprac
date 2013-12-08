@@ -3,33 +3,43 @@
 	{
 		"selected_items":
 		[
+			[
+				"fon",
+				"font-stack"
+			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 59,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 347.0,
 		"selected_items":
 		[
+			[
+				"Packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Pac",
+				"Package Control: Install Package"
+			]
 		],
-		"width": 0.0
+		"width": 449.0
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 126.0,
 		"history":
 		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"ls -la"
 		]
 	},
 	"distraction_free":
@@ -43,14 +53,23 @@
 	},
 	"file_history":
 	[
+		"/Users/Jordan/Sites/Creaprac/resources/scss/test.scss",
+		"/Users/Jordan/Sites/Creaprac/resources/scss/test.sass",
+		"/Users/Jordan/Sites/Creaprac/MX/products/tirapracL.html",
+		"/Users/Jordan/Sites/Creaprac/MX/products/tiraprac.html",
+		"/Users/Jordan/Sites/Creaprac/css/style.css",
+		"/Users/Jordan/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/Jordan/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/Jordan/Sites/Creaprac/MX/index.html",
+		"/Users/Jordan/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Jordan/Sites/Creaprac/Creaprac.sublime-project",
 		"/Users/Jordan/Sites/Creaprac/README.md",
 		"/Users/Jordan/Sites/Creaprac/sublime.html",
-		"/Users/Jordan/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/Users/Jordan/Desktop/index.html"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -81,36 +100,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "README.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 59,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -148,7 +139,7 @@
 	"project": "Creaprac.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
