@@ -1,6 +1,6 @@
 ![Logo](http://www.creaprac.com/img/mail/email_header.png)
 
-#### Phase: [Build](https://api.travis-ci.org/heyjrdn/Creaprac.png) ####
+#### Phase: ![Build](https://api.travis-ci.org/heyjrdn/Creaprac.png) ####
 * * *
 
 Design and development for the web site
