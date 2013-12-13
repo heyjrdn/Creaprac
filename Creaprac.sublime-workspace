@@ -4,20 +4,89 @@
 		"selected_items":
 		[
 			[
+				"s",
+				"state"
+			],
+			[
+				"com",
+				"company"
+			],
+			[
+				"body",
+				"bodyHTML"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
 				"fon",
-				"font-stack"
+				"font-weight"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"ema",
+				"email"
+			],
+			[
+				"name",
+				"nameTo"
+			],
+			[
+				"email",
+				"emailTo"
+			],
+			[
+				"regex",
+				"regex_phone"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"onke",
+				"onkeypress	Attr"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"wi",
+				"width"
 			]
 		]
 	},
-	"buffers":
-	[
-	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 347.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"",
+				"Package Control: Install Package"
+			],
 			[
 				"Packa",
 				"Package Control: Remove Package"
@@ -53,17 +122,37 @@
 	},
 	"file_history":
 	[
+		"/Users/Jordan/Sites/Creaprac/MX/products.html",
+		"/Users/Jordan/Sites/Creaprac/MX/products/cenefapracL.html",
+		"/Users/Jordan/Sites/Creaprac/MX/products/cubreprac.html",
+		"/Users/Jordan/Sites/Creaprac/MX/products/sepracNG.html",
+		"/Users/Jordan/Sites/Creaprac/MX/products/seprac.html",
+		"/Users/Jordan/Sites/Creaprac/MX/products/tiraprac.html",
+		"/Users/Jordan/Sites/Creaprac/MX/products/tirapracL.html",
+		"/Users/Jordan/Sites/Creaprac/MX/products/zocloprac.html",
+		"/Users/Jordan/Sites/Creaprac/js/cacheImage.js",
+		"/Users/Jordan/Sites/Creaprac/css/style.css",
+		"/Users/Jordan/Sites/Creaprac/js/script.js",
+		"/Users/Jordan/Sites/Creaprac/.travis.yml",
+		"/Users/Jordan/Sites/Creaprac/README.md",
+		"/Users/Jordan/Sites/Creaprac/php/PHPMailer/templates.php",
+		"/Users/Jordan/Sites/Creaprac/php/PHPMailer/mail.php",
+		"/Users/Jordan/Sites/Creaprac/MX/contact.html",
+		"/Users/Jordan/Sites/Creaprac/php/PHPMailer/template/mail_template_inline.html",
+		"/Users/Jordan/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Jordan/Sites/Creaprac/php/PHPMailer/transactional_tabular.html",
+		"/Users/Jordan/Sites/Creaprac/php/PHPMailer/mail_template.html",
+		"/Users/Jordan/Sites/Creaprac/php/PHPMailer/mail_template_inline.html",
+		"/Users/Jordan/Sites/Creaprac/php/PHPMailer/class.phpmailer.php",
+		"/Users/Jordan/Sites/Creaprac/php/mail.php",
+		"/Users/Jordan/Sites/Creaprac/css/main.css",
+		"/Users/Jordan/Sites/Creaprac/js/jquery.min.js",
+		"/Users/Jordan/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/Users/Jordan/Sites/Creaprac/resources/scss/test.scss",
 		"/Users/Jordan/Sites/Creaprac/resources/scss/test.sass",
-		"/Users/Jordan/Sites/Creaprac/MX/products/tirapracL.html",
-		"/Users/Jordan/Sites/Creaprac/MX/products/tiraprac.html",
-		"/Users/Jordan/Sites/Creaprac/css/style.css",
-		"/Users/Jordan/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/Users/Jordan/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
 		"/Users/Jordan/Sites/Creaprac/MX/index.html",
-		"/Users/Jordan/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/Jordan/Sites/Creaprac/Creaprac.sublime-project",
-		"/Users/Jordan/Sites/Creaprac/README.md",
 		"/Users/Jordan/Sites/Creaprac/sublime.html",
 		"/Users/Jordan/Desktop/index.html"
 	],
@@ -83,6 +172,35 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Marmol",
+			"Cafe",
+			"Beige",
+			"Blanco",
+			"Negro",
+			"Z-",
+			"Z",
+			"Zocloprac",
+			"Z",
+			"Zocloprac",
+			"Z",
+			"Zocloprac",
+			"67",
+			"<td width=\\\"67%\\\" style=\\\"font-family: \\\"Helvetica Neue\\\", Helvetica, Arial, sans-serif;font-style: normal;font-weight: 300;color: #222222;border-bottom: 1px solid #CCCCCC;\\\">",
+			"<th align=\\\"left\\\" bgcolor=\\\"#1F85D5\\\" width=\\\"33%\\\" border-bottom: 1px solid #CCCCCC;\\\"><font face=\\\"Arial, sans-serif\\\" color=\\\"white\\\">",
+			"</th>",
+			"<th align=\\\"left\\\" bgcolor=\\\"#1F85D5\\\" width=\\\"33%\\\" style=\\\"font-family: \\\"Helvetica Neue\\\", Helvetica, Arial, sans-serif;font-style: normal;text-transform: capitalize;font-weight: 600;border-bottom: 1px solid #CCCCCC;\\\">",
+			"<th width=\\\"33%\\\" style=\\\"font-family: \\\"Helvetica Neue\\\", Helvetica, Arial, sans-serif;font-style: normal;text-transform: capitalize;font-weight: 600;color: #FFFFFF;background-color: #1F85D5;text-align: left;border-bottom: 1px solid #CCCCCC;\\\">",
+			"Nombre",
+			"\"",
+			"&quot;",
+			"\"",
+			"&quot;",
+			"\"",
+			"class=",
+			"class",
+			"show",
+			"<li>",
+			"li"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -97,21 +215,13 @@
 		"whole_word": false,
 		"wrap": true
 	},
-	"groups":
-	[
-		{
-			"sheets":
-			[
-			]
-		}
-	],
 	"incremental_find":
 	{
 		"height": 23.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -122,11 +232,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.697438469087,
 			1.0
 		],
 		"rows":
@@ -136,7 +253,6 @@
 		]
 	},
 	"menu_visible": true,
-	"project": "Creaprac.sublime-project",
 	"replace":
 	{
 		"height": 42.0
@@ -173,7 +289,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 174.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
