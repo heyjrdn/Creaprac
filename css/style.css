@@ -235,51 +235,51 @@ header.main nav > ul > li > a:hover {
 
 /* @group INDEX */
 
-body[role=index] div.main.container aside {
+body.index div.main.container aside {
 	float: left;
 	width: 265px;
 	padding-right: 32px;
 }
 
-body[role=index] div.main.container section {
+body.index div.main.container section {
 	float: right;
 	width: 695px;
 }
 
-body[role=index] div.main.container section p {
+body.index div.main.container section p {
 	font-family: "minion-pro",sans-serif;
 	font-style: italic;
 	font-weight: 400;
 	font-size: 1.1em;
 }
 
-body[role=index] div.main.container section p:first-child {
+body.index div.main.container section p:first-child {
 	margin-top: 0;
 }
 
-body[role=index] div.main.container header.page {
+body.index div.main.container header.page {
 	margin: 1.5em 0;
 
 }
 
-body[role=index] div.main.container .warehouse {
+body.index div.main.container .warehouse {
 	text-align: right;
 }
 
-body[role=index] div.main.container .warehouse h4 {
+body.index div.main.container .warehouse h4 {
 	margin-bottom: 0;
 }
 
- body[role=index] div.main.container .warehouse .phone
-,body[role=index] div.main.container .warehouse .fax {
+ body.index div.main.container .warehouse .phone
+,body.index div.main.container .warehouse .fax {
 	display: block;
 }
 
-body[role=index] div.main.container .warehouse .phone::before {
+body.index div.main.container .warehouse .phone::before {
 	content: 'T. ';
 }
 
-body[role=index] div.main.container .warehouse .fax::before {
+body.index div.main.container .warehouse .fax::before {
 	content: 'Fax. ';
 }
 
@@ -287,12 +287,12 @@ body[role=index] div.main.container .warehouse .fax::before {
 
 /* @group CONTACT */
 
-body[role=contact] div.main.container form .row label.required::after {
+body.contact div.main.container form .row label.required::after {
 	content: ' *';
 	color: rgb(186, 19, 27);
 }
 
-body[role=contact] div.main.container form .row label {
+body.contact div.main.container form .row label {
 	position: relative;
 	display: inline-block;
 	margin-right: 10px;
@@ -302,34 +302,34 @@ body[role=contact] div.main.container form .row label {
 	margin-top: 6px;
 }
 
- body[role=contact] div.main.container form .row.input1 label
-,body[role=contact] div.main.container form .row.input2 label:first-of-type {
+ body.contact div.main.container form .row.input1 label
+,body.contact div.main.container form .row.input2 label:first-of-type {
 	margin-left: 170px;
 }
 
-body[role=contact] div.main.container form .row.input2 label:last-of-type {
+body.contact div.main.container form .row.input2 label:last-of-type {
 	margin-left: 20px;
 }
 
- body[role=contact] div.main.container form .row.input1 input
-,body[role=contact] div.main.container form .row.input1 textarea {
+ body.contact div.main.container form .row.input1 input
+,body.contact div.main.container form .row.input1 textarea {
 	width: 526px;
 }
 
-body[role=contact] div.main.container form .row.input2 input {
+body.contact div.main.container form .row.input2 input {
 	width: 204px;
 }
 
-body[role=contact] div.main.container form .row.button {
+body.contact div.main.container form .row.button {
 	text-align: center;
 }
 
-body[role=contact] div.main.container form .row.button .btn {
+body.contact div.main.container form .row.button .btn {
 	padding: 12px 24px;
 }
 
- body[role=contact] div.main.container form input
-,body[role=contact] div.main.container form textarea {
+ body.contact div.main.container form input
+,body.contact div.main.container form textarea {
 	 padding: 4px 6px;
 	 line-height: 1.428571429;
 	 color: #555555;
@@ -347,22 +347,22 @@ body[role=contact] div.main.container form .row.button .btn {
 
 /* @group CATALOG */
 
-body[role=catalog] div.main.container .center-content {
+body.catalog div.main.container .center-content {
 	width: 620px;
 	margin: 0px auto 0 auto;
 	overflow: hidden;
 }
 
- body[role=catalog] div.main.container .center-content p
-,body[role=catalog] div.main.container .center-content figcaption {
+ body.catalog div.main.container .center-content p
+,body.catalog div.main.container .center-content figcaption {
 	text-align: center;
 }
 
-body[role=catalog] div.main.container .center-content figure {
+body.catalog div.main.container .center-content figure {
 	margin-top: 30px;
 }
 
-body[role=catalog] div.main.container .center-content figure .download-icon {
+body.catalog div.main.container .center-content figure .download-icon {
 	width: 131.5px;
 	height: 91px;
 	display: block;
@@ -371,11 +371,11 @@ body[role=catalog] div.main.container .center-content figure .download-icon {
 	background-position: top left;
 }
 
-body[role=catalog] div.main.container .center-content figure:hover .download-icon {
+body.catalog div.main.container .center-content figure:hover .download-icon {
 	background-position: top right;
 }
 
-body[role=catalog] div.main.container .center-content a:hover {
+body.catalog div.main.container .center-content a:hover {
 	color: rgb(89, 143, 0);
 }
 
@@ -383,39 +383,39 @@ body[role=catalog] div.main.container .center-content a:hover {
 
 /* @group CARDBOARDS */
 
-body[role=cardboards] div.main.container .row {
+body.cardboards div.main.container .row {
 	margin-bottom: 50px;
 }
 
-body[role=cardboards] div.main.container .row:last-of-type {
+body.cardboards div.main.container .row:last-of-type {
 	margin-bottom: 20px;
 }
 
-body[role=cardboards] div.main.container .row .mini-cardboard {
+body.cardboards div.main.container .row .mini-cardboard {
 	display: inline-block;
 	width: 317px;
 	text-align: center;
 }
 
-body[role=cardboards] div.main.container .row .mini-cardboard a {
+body.cardboards div.main.container .row .mini-cardboard a {
 	text-decoration: none;
 }
 
-body[role=cardboards] div.main.container .row .mini-cardboard a figcaption {
+body.cardboards div.main.container .row .mini-cardboard a figcaption {
 	color: rgb(27, 117, 187);
 }
 
-body[role=cardboards] div.main.container .row .mini-cardboard a .impact-heading {
+body.cardboards div.main.container .row .mini-cardboard a .impact-heading {
 	font-weight: 600;
 }
 
-body[role=cardboards] div.main.container .row .mini-cardboard a:hover {
+body.cardboards div.main.container .row .mini-cardboard a:hover {
 	text-decoration: underline;
 	/*color: rgb(89, 143, 0);*/
 	color: rgb(140, 3, 3);
 }
 
-body[role=cardboards] div.main.container .row .mini-cardboard a:hover figcaption {
+body.cardboards div.main.container .row .mini-cardboard a:hover figcaption {
 	/*color: rgb(89, 143, 0);*/
 	color: rgb(140, 3, 3);
 }
@@ -424,7 +424,7 @@ body[role=cardboards] div.main.container .row .mini-cardboard a:hover figcaption
 
 /* @group PRODUCTS */
 
-body[role=products] div.main.container .carousel {
+body.products div.main.container .carousel {
 	position: relative;
 	width: 960px;
 	height: 632px;
@@ -433,7 +433,7 @@ body[role=products] div.main.container .carousel {
 	/*background-color: #F00;*/
 }
 
-body[role=products] div.main.container .carousel > .products {
+body.products div.main.container .carousel > .products {
 	position: relative;
 	width: 870px;
 	height: 600px;
@@ -444,7 +444,7 @@ body[role=products] div.main.container .carousel > .products {
 	padding: 0;
 }
 
-body[role=products] div.main.container .carousel > .products > ul {
+body.products div.main.container .carousel > .products > ul {
 	list-style: none;
 	position: relative;
 	height: 600px;
@@ -453,15 +453,15 @@ body[role=products] div.main.container .carousel > .products > ul {
 	padding: 0;
 }
 
-body[role=products] div.main.container .carousel .products ul  img {
+body.products div.main.container .carousel .products ul  img {
 	border: 3px solid rgb(240, 240, 240);
 }
 
-body[role=products] div.main.container .carousel .products ul  img:hover {
+body.products div.main.container .carousel .products ul  img:hover {
 	border: 3px solid rgb(27, 117, 187);
 }
 
-body[role=products] div.main.container .carousel > .products > ul > li {
+body.products div.main.container .carousel > .products > ul > li {
 	position: relative;
 	display: block;
 	width: 290px;
@@ -469,7 +469,7 @@ body[role=products] div.main.container .carousel > .products > ul > li {
 	float: left;
 }
 
-body[role=products] div.main.container .carousel > .products > ul > li > a {
+body.products div.main.container .carousel > .products > ul > li > a {
 	position: absolute;
 	width: 246px;
 	height: 276px;
@@ -477,7 +477,7 @@ body[role=products] div.main.container .carousel > .products > ul > li > a {
 	top: 12px;
 }
 
-body[role=products] div.main.container .carousel > .pager > ul {
+body.products div.main.container .carousel > .pager > ul {
 	list-style: none;
 	text-align: center;
 	position: relative;
@@ -488,53 +488,53 @@ body[role=products] div.main.container .carousel > .pager > ul {
 	height: 32px;
 }
 
-body[role=products] div.main.container .carousel > .pager > ul > li {
+body.products div.main.container .carousel > .pager > ul > li {
 	display: inline-block;
 	width: 32px;
 	height: 32px;
 }
 
-body[role=products] div.main.container .carousel .pager .pager-list {
+body.products div.main.container .carousel .pager .pager-list {
 	display: block;
 	width: 32px;
 	height: 32px;
 	background: url('../img/icons/carousel_navigation.png') no-repeat transparent;
 }
 
-body[role=products] div.main.container .carousel .pager #pag1 {	background-position: 1px -41px; }
-body[role=products] div.main.container .carousel .pager #pag2 {	background-position: -31px -41px; }
-body[role=products] div.main.container .carousel .pager #pag3 {	background-position: -63px -41px; }
-body[role=products] div.main.container .carousel .pager #pag4 {	background-position: -95px -41px; }
-body[role=products] div.main.container .carousel .pager #pag5 {	background-position: -127px -41px; }
-body[role=products] div.main.container .carousel .pager #pag6 {	background-position: 1px -73px; }
-body[role=products] div.main.container .carousel .pager #pag7 {	background-position: -31px -73px; }
-body[role=products] div.main.container .carousel .pager #pag8 {	background-position: -63px -73px; }
-body[role=products] div.main.container .carousel .pager #pag9 {	background-position: -95px -73px; }
-body[role=products] div.main.container .carousel .pager #pag10 { background-position: -127px -73px; }
+body.products div.main.container .carousel .pager #pag1 {	background-position: 1px -41px; }
+body.products div.main.container .carousel .pager #pag2 {	background-position: -31px -41px; }
+body.products div.main.container .carousel .pager #pag3 {	background-position: -63px -41px; }
+body.products div.main.container .carousel .pager #pag4 {	background-position: -95px -41px; }
+body.products div.main.container .carousel .pager #pag5 {	background-position: -127px -41px; }
+body.products div.main.container .carousel .pager #pag6 {	background-position: 1px -73px; }
+body.products div.main.container .carousel .pager #pag7 {	background-position: -31px -73px; }
+body.products div.main.container .carousel .pager #pag8 {	background-position: -63px -73px; }
+body.products div.main.container .carousel .pager #pag9 {	background-position: -95px -73px; }
+body.products div.main.container .carousel .pager #pag10 { background-position: -127px -73px; }
 
-body[role=products] div.main.container .carousel .pager #pag1:hover {	background-position: 1px -105px; }
-body[role=products] div.main.container .carousel .pager #pag2:hover {	background-position: -31px -105px; }
-body[role=products] div.main.container .carousel .pager #pag3:hover {	background-position: -63px -105px; }
-body[role=products] div.main.container .carousel .pager #pag4:hover {	background-position: -95px -105px; }
-body[role=products] div.main.container .carousel .pager #pag5:hover {	background-position: -127px -105px; }
-body[role=products] div.main.container .carousel .pager #pag6:hover {	background-position: 1px -137px; }
-body[role=products] div.main.container .carousel .pager #pag7:hover {	background-position: -31px -137px; }
-body[role=products] div.main.container .carousel .pager #pag8:hover {	background-position: -63px -137px; }
-body[role=products] div.main.container .carousel .pager #pag9:hover {	background-position: -95px -137px; }
-body[role=products] div.main.container .carousel .pager #pag10:hover { background-position: -127px -137px; }
+body.products div.main.container .carousel .pager #pag1:hover {	background-position: 1px -105px; }
+body.products div.main.container .carousel .pager #pag2:hover {	background-position: -31px -105px; }
+body.products div.main.container .carousel .pager #pag3:hover {	background-position: -63px -105px; }
+body.products div.main.container .carousel .pager #pag4:hover {	background-position: -95px -105px; }
+body.products div.main.container .carousel .pager #pag5:hover {	background-position: -127px -105px; }
+body.products div.main.container .carousel .pager #pag6:hover {	background-position: 1px -137px; }
+body.products div.main.container .carousel .pager #pag7:hover {	background-position: -31px -137px; }
+body.products div.main.container .carousel .pager #pag8:hover {	background-position: -63px -137px; }
+body.products div.main.container .carousel .pager #pag9:hover {	background-position: -95px -137px; }
+body.products div.main.container .carousel .pager #pag10:hover { background-position: -127px -137px; }
 
-body[role=products] div.main.container .carousel .pager #pag1.active {	background-position: 1px -105px; }
-body[role=products] div.main.container .carousel .pager #pag2.active {	background-position: -31px -105px; }
-body[role=products] div.main.container .carousel .pager #pag3.active {	background-position: -63px -105px; }
-body[role=products] div.main.container .carousel .pager #pag4.active {	background-position: -95px -105px; }
-body[role=products] div.main.container .carousel .pager #pag5.active {	background-position: -127px -105px; }
-body[role=products] div.main.container .carousel .pager #pag6.active {	background-position: 1px -137px; }
-body[role=products] div.main.container .carousel .pager #pag7.active {	background-position: -31px -137px; }
-body[role=products] div.main.container .carousel .pager #pag8.active {	background-position: -63px -137px; }
-body[role=products] div.main.container .carousel .pager #pag9.active {	background-position: -95px -137px; }
-body[role=products] div.main.container .carousel .pager #pag10.active { background-position: -127px -137px; }
+body.products div.main.container .carousel .pager #pag1.active {	background-position: 1px -105px; }
+body.products div.main.container .carousel .pager #pag2.active {	background-position: -31px -105px; }
+body.products div.main.container .carousel .pager #pag3.active {	background-position: -63px -105px; }
+body.products div.main.container .carousel .pager #pag4.active {	background-position: -95px -105px; }
+body.products div.main.container .carousel .pager #pag5.active {	background-position: -127px -105px; }
+body.products div.main.container .carousel .pager #pag6.active {	background-position: 1px -137px; }
+body.products div.main.container .carousel .pager #pag7.active {	background-position: -31px -137px; }
+body.products div.main.container .carousel .pager #pag8.active {	background-position: -63px -137px; }
+body.products div.main.container .carousel .pager #pag9.active {	background-position: -95px -137px; }
+body.products div.main.container .carousel .pager #pag10.active { background-position: -127px -137px; }
 
-body[role=products] div.main.container .carousel > .pager-btn {
+body.products div.main.container .carousel > .pager-btn {
 	position: absolute;
 	background: url('../img/icons/carousel_navigation.png') no-repeat transparent;
 	height: 40px;
@@ -542,23 +542,23 @@ body[role=products] div.main.container .carousel > .pager-btn {
 	cursor: pointer;
 }
 
-body[role=products] div.main.container .carousel > #pager_left {
+body.products div.main.container .carousel > #pager_left {
 	top: 280px;
 	left: 5px;
 	background-position: 0px 0px;
 }
 
-body[role=products] div.main.container .carousel > #pager_left:hover {
+body.products div.main.container .carousel > #pager_left:hover {
 	background-position: -84px 0px;
 }
 
-body[role=products] div.main.container .carousel > #pager_right {
+body.products div.main.container .carousel > #pager_right {
 	top: 280px;
 	right: 5px;
 	background-position: -42px 0px;
 }
 
-body[role=products] div.main.container .carousel > #pager_right:hover {
+body.products div.main.container .carousel > #pager_right:hover {
 	background-position: -126px 0px;
 }
 
@@ -566,14 +566,14 @@ body[role=products] div.main.container .carousel > #pager_right:hover {
 
 /* @group Each Product */
 
-body[role=each-product] div.main.container header.product {
+body.each-product div.main.container header.product {
 	position: relative;
 	width: 960px;
 	height: 200px;
 	margin: 30px 0;
 }
 
-body[role=each-product] div.main.container header.product .text {
+body.each-product div.main.container header.product .text {
 	position: absolute;
 	display: inline-block;
 	top: 0;
@@ -592,31 +592,31 @@ body[role=each-product] div.main.container header.product .text {
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#F0F0F0', endColorstr='#88ADDB', gradientType='1')";
 }
 
- body[role=each-product] div.main.container header.product .text h1
-,body[role=each-product] div.main.container header.product .text h2
-,body[role=each-product] div.main.container header.product .text h3 {
+ body.each-product div.main.container header.product .text h1
+,body.each-product div.main.container header.product .text h2
+,body.each-product div.main.container header.product .text h3 {
 	margin: 0;
 	padding: 0;
 }
 
-body[role=each-product] div.main.container header.product .text h1 {
+body.each-product div.main.container header.product .text h1 {
 	font-family: Impact;
 	font-size: 3em;
 	margin-bottom: 10px;
 }
 
-body[role=each-product] div.main.container header.product .text h2 {
+body.each-product div.main.container header.product .text h2 {
 	font-size: 1.1em;
 	font-weight: 600;
 }
 
 /* @end */
 
-body[role=each-product] div.main.container figure.product-show {
+body.each-product div.main.container figure.product-show {
 	text-align: center;
 	font-weight: 600;
 }
 
-body[role=each-product] div.main.container figure.product-show img {
+body.each-product div.main.container figure.product-show img {
 	margin: 0 auto;
 }

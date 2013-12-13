@@ -17,10 +17,10 @@
 		<script async src="../js/respond.min.js"></script>
 	<![endif]-->
 </head>
-<body role="contact">
+<body class="contact">
 	<header class="main">
 		<div class="container">
-			<img class="logo" src="../img/logos/logo-creaprac.png" alt="" width="348.4" height="98.15"/>
+			<img class="logo" src="../img/logos/logo-creaprac.png" alt="" width="348" height="98"/>
 			<nav>
 				<ul>
 					<li><a href="./">Inicio</a></li>
@@ -56,31 +56,31 @@
 		<h1>Cont&aacute;ctenos</h1>
 		<form method="post" action="http://localhost/Creaprac/php/PHPMailer/mail.php">
 			<div class="row input1">
-				<label for="name" class="required">Nombre</label>
+				<label for="_first" class="required">Nombre</label>
 				<input type="text" name="first" id="_first" value="" required />
 			</div>
 			<div class="row input2">
-				<label for="name" class="required">Email</label>
+				<label for="_email" class="required">Email</label>
 				<input type="email" name="email" id="_email" value="" required />
-				<label for="name" class="required">Tel&eacute;fono</label>
+				<label for="_phone" class="required">Tel&eacute;fono</label>
 				<input type="tel" name="phone" id="_phone" value="" required />
 			</div>
 			<div class="row input1">
-				<label for="name" class="required">Empresa</label>
+				<label for="_company" class="required">Empresa</label>
 				<input type="text" name="company" id="_company" value="" required />
 			</div>
 			<div class="row input1">
-				<label for="name" class="required">Ciudad</label>
+				<label for="_city" class="required">Ciudad</label>
 				<input type="text" name="city" id="_city" value="" required />
 			</div>
 			<div class="row input2">
-				<label for="name" class="required">Estado</label>
+				<label for="_state" class="required">Estado</label>
 				<input type="text" name="state" id="_state" value="" required />
-				<label for="name" class="required">Pa&iacute;s</label>
+				<label for="_country" class="required">Pa&iacute;s</label>
 				<input type="text" name="country" id="_country" value="" required />
 			</div>
 			<div class="row input1">
-				<label for="name" class="required">Asunto</label>
+				<label for="_message" class="required">Asunto</label>
 				<textarea rows="5" name="message" id="_message"></textarea>
 			</div>
 			<div class="row button">

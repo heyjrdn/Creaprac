@@ -43,11 +43,11 @@ h1, h2, h3, h4, h5, h6 {
 	height: 100%;
 	background: rgb(255, 255, 255) url('../img/main-back/back.jpg') no-repeat center center fixed;
 	background-size:cover;
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/main-back/back.jpg', sizingMethod='scale')";
+	/*-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/main-back/back.jpg', sizingMethod='scale')";
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/main-back/back.jpg', sizingMethod='scale');
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
-	-o-background-size:cover;
+	-o-background-size:cover;*/
 }
 
 .back-black {
