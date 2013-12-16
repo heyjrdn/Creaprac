@@ -653,7 +653,7 @@ body.canalprac .row .row-product {
 	margin-top: 35px;
 }
 
-body.canalprac .canal-name {
+body.each-product div.main.container .inner-prod-name {
 	position: absolute;
 	top: 0px;
 	left: 0px;
