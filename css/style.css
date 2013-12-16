@@ -242,15 +242,19 @@ header.main nav > ul > li > a:hover {
 .col12 { width: 960px; }
 
 .text-left {
-	text-align: left;
+	text-align: left !important;
 }
 
 .text-right {
-	text-align: right;
+	text-align: right  !important;
 }
 
 .text-center {
-	text-align: center;
+	text-align: center  !important;
+}
+
+.text-italic {
+	font-style: italic !important;
 }
 
 /* @end */
