@@ -409,17 +409,7 @@ body.catalog div.main.container .center-content a:hover {
 
 /* @group CARDBOARDS */
 
-body.cardboards div.main.container .row {
-	margin-bottom: 50px;
-}
-
-body.cardboards div.main.container .row:last-of-type {
-	margin-bottom: 20px;
-}
-
 body.cardboards div.main.container .row .mini-cardboard {
-	display: inline-block;
-	width: 317px;
 	text-align: center;
 }
 
@@ -437,13 +427,7 @@ body.cardboards div.main.container .row .mini-cardboard a .impact-heading {
 
 body.cardboards div.main.container .row .mini-cardboard a:hover {
 	text-decoration: underline;
-	/*color: rgb(89, 143, 0);*/
-	color: rgb(140, 3, 3);
-}
-
-body.cardboards div.main.container .row .mini-cardboard a:hover figcaption {
-	/*color: rgb(89, 143, 0);*/
-	color: rgb(140, 3, 3);
+	color: rgb(216, 34, 42);
 }
 
 /* @end */
