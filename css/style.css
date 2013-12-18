@@ -675,3 +675,53 @@ body.each-product div.main.container .inner-prod-name {
 	font-weight: 300;
 	margin: 5px;
 }
+
+.table-edificacion-title {
+	font-size: 1.2em;
+}
+
+.table-edificacion {
+	margin: 2px auto;
+}
+
+.table-edificacion > thead > tr > th {
+	background-color: rgb(102, 102, 102);
+	color: rgb(255, 255, 255);
+}
+
+  .table-edificacion > thead > tr > th
+, .table-edificacion > tbody > tr > td {
+	border: 2px solid black;
+	padding: 2px 5px;
+}
+
+.legal-footer {
+	font-size: 1.6em;
+}
+
+.cartridge {
+	position: absolute;
+	top: 30px;
+	left: 110px;
+	width: 347px;
+	background-color: rgb(188, 206, 229);
+	text-align: left;
+	padding: 10px;
+	font-weight: 300;
+}
+
+.cartridge > ul {
+	margin-bottom: 0;
+}
+
+.guarantee {
+	margin-top: 95px;
+}
+
+.gomaprac-text {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-weight: 300;
+	font-size: 1.2em;
+}
