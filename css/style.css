@@ -663,6 +663,10 @@ body.each-product div.main.container .inner-prod-name {
 	left: 0;
 }
 
+body.each-product div.main.container .product-description li {
+	line-height: 2;
+}
+
 .instalprac-text {
 	position: absolute;
 	top: 0;
@@ -724,4 +728,10 @@ body.each-product div.main.container .inner-prod-name {
 	left: 0;
 	font-weight: 300;
 	font-size: 1.2em;
+}
+
+.cenefas-header {
+	margin-bottom: -20px;
+	text-transform: capitalize;
+	font-weight: 300;
 }
