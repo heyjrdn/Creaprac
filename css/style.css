@@ -241,6 +241,36 @@ header.main nav > ul > li > a:hover {
 .col11 { width: 880px; }
 .col12 { width: 960px; }
 
+  .col1 > p:first-child
+, .col2 > p:first-child
+, .col3 > p:first-child
+, .col4 > p:first-child
+, .col5 > p:first-child
+, .col6 > p:first-child
+, .col7 > p:first-child
+, .col8 > p:first-child
+, .col9 > p:first-child
+, .col10 > p:first-child
+, .col11 > p:first-child
+, .col12 > p:first-child {
+	margin-top: 0;
+}
+
+  .col1 > p.last-child
+, .col2 > p.last-child
+, .col3 > p.last-child
+, .col4 > p.last-child
+, .col5 > p.last-child
+, .col6 > p.last-child
+, .col7 > p.last-child
+, .col8 > p.last-child
+, .col9 > p.last-child
+, .col10 > p.last-child
+, .col11 > p.last-child
+, .col12 > p.last-child {
+	margin-bottom: 0;
+}
+
 .text-left {
 	text-align: left !important;
 }
@@ -301,11 +331,11 @@ body.index div.main.container .warehouse h4 {
 	display: block;
 }
 
-body.index div.main.container .warehouse .phone::before {
+body.index div.main.container .warehouse .phone:before {
 	content: 'T. ';
 }
 
-body.index div.main.container .warehouse .fax::before {
+body.index div.main.container .warehouse .fax:before {
 	content: 'Fax. ';
 }
 
@@ -313,7 +343,7 @@ body.index div.main.container .warehouse .fax::before {
 
 /* @group CONTACT */
 
-body.contact div.main.container form .row label.required::after {
+body.contact div.main.container form .row label.required:after {
 	content: ' *';
 	color: rgb(186, 19, 27);
 }
@@ -426,6 +456,37 @@ body.cardboards div.main.container .row .mini-cardboard a .impact-heading {
 }
 
 body.cardboards div.main.container .row .mini-cardboard a:hover {
+	text-decoration: underline;
+	color: rgb(216, 34, 42);
+}
+
+/* @end */
+
+/* @group MANUALS */
+
+body.manuals div.main.container .row .mini-manual {
+	text-align: center;
+}
+
+body.manuals div.main.container .row .mini-manual a {
+	text-decoration: none;
+}
+
+body.manuals div.main.container .row .mini-manual img {
+	border: 5px solid rgb(27, 117, 187);
+}
+
+body.manuals div.main.container .row .mini-manual .manuals-caption {
+	margin-top: 10px;
+	font-weight: 600;
+	font-size: 1.3em;
+}
+
+body.manuals div.main.container .row .mini-manual a:hover img {
+	border: 5px solid rgb(216, 34, 42);
+}
+
+body.manuals div.main.container .row .mini-manual a:hover {
 	text-decoration: underline;
 	color: rgb(216, 34, 42);
 }
@@ -719,3 +780,31 @@ body.each-product div.main.container .product-description li {
 	text-transform: capitalize;
 	font-weight: 300;
 }
+
+/* @group Manual */
+.step h1 {
+	margin: 0;
+}
+
+.step hr {
+	margin: -25px 0 10px 0;
+}
+
+.step .text-right img {
+	margin-right: 10px;
+}
+
+.step .text-left img {
+	margin-left: 10px;
+}
+
+.step p {
+	font-size: 1.3em;
+}
+
+.step .mini p
+,.step .mini ol li {
+	font-size: 1.1em !important;
+}
+
+/* @end */
