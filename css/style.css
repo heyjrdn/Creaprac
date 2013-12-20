@@ -462,6 +462,24 @@ body.cardboards div.main.container .row .mini-cardboard a:hover {
 
 /* @end */
 
+/* @group EXHIBITORS */
+
+body.exhibitors div.main.container .row a {
+	text-decoration: none;
+	color: rgb(27, 117, 187);
+}
+
+body.exhibitors div.main.container .row a .impact-heading {
+	font-weight: 600;
+}
+
+body.exhibitors div.main.container .row a:hover {
+	text-decoration: underline;
+	color: rgb(216, 34, 42);
+}
+
+/* @end */
+
 /* @group MANUALS */
 
 body.manuals div.main.container .row .mini-manual {
