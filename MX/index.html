@@ -39,7 +39,8 @@
 			<img src="../img/main/main_banner.jpg" alt="" />
 		</header>
 		<aside>
-			<img src="../img/products/thumbnails/MX/Tiraprac.jpg" alt="" />
+			<img id="_thumbnail" src="../img/products/thumbnails/MX/Tiraprac.jpg" alt="" />
+			<img id="_preload" style="display: none;" src="" alt="" />
 			<div class="warehouse">
 				<h4>Almac&eacute;n Cd. de M&eacute;xico</h4>
 				<span class="phone">55 5558 6971</span>
@@ -82,6 +83,13 @@
 		</div>
 	</footer>
 
-	<script async src="../js/typekit.min.js"></script>
+	<script src="../js/thumbnail_carousel.js"></script>
+	<script src="../js/typekit.min.js"></script>
+	<script>
+		window.onload = function() {
+			preloadThumbnails( "MX" );
+    		carousel( "MX" );
+		}
+	</script>
 </body>
 </html>
