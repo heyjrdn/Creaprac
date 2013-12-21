@@ -11,8 +11,8 @@ $Password   = 'creaWeb1!';
 $FromName   = 'Web Creaprac';
 
 //To Data
-$emailTo    = 'jordancg91@gmail.com';
-$nameTo     = 'Jordan Cortes';
+$emailTo    = 'info@creaprac.com';
+$nameTo     = 'Info Creaprac';
 
 //Form Data
 $name       =  (string) htmlentities( $_POST['first'] );
@@ -56,6 +56,33 @@ if(!$mail->send()) {
 
 //echo $message . "\n.";
 //echo 'Message has been sent';
+
+/* Connect to an ODBC database using driver invocation */
+$dsn = 'mysql:dbname=creaprac_email;host=localhost';
+$user = 'creaprac_email';
+$pass = 'creaprac1';
+
+try {
+    $dbh = new PDO($dsn, $user, $pass, array(PDO::MYSQL_ATTR_INIT_COMMAND =>  'SET NAMES utf8'));
+} catch (PDOException $e) {
+    echo 'Connection failed: ' . $e->getMessage();
+}
+
+$query = 'INSERT INTO mail (name, email, phone, company, city, state, country, message) VALUES (:name, :email, :phone, :company, :city, :state, :country, :message)';
+
+$sth = $dbh->prepare($query);
+$sth->bindParam(':name', html_entity_decode( $name ) );
+$sth->bindParam(':email', html_entity_decode( $email ) );
+$sth->bindParam(':phone', html_entity_decode( $phone ) );
+$sth->bindParam(':company', html_entity_decode( $company ) );
+$sth->bindParam(':city', html_entity_decode( $city ) );
+$sth->bindParam(':state', html_entity_decode( $state ) );
+$sth->bindParam(':country', html_entity_decode( $country ) );
+$sth->bindParam(':message', html_entity_decode( $message ) );
+
+$sth->execute();
+
+$dbh = null;
 
 header("Location: http://demo.creaprac.com/MX/contact/success.html");
 die();
