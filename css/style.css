@@ -403,36 +403,13 @@ body.contact div.main.container form .row.button .btn {
 
 /* @group CATALOG */
 
-body.catalog div.main.container .center-content {
-	width: 620px;
-	margin: 0px auto 0 auto;
-	overflow: hidden;
+  body.catalog div.main.container p
+, body.catalog div.main.container a {
+	font-size: 1.3em;
 }
 
- body.catalog div.main.container .center-content p
-,body.catalog div.main.container .center-content figcaption {
-	text-align: center;
-}
-
-body.catalog div.main.container .center-content figure {
-	margin-top: 30px;
-}
-
-body.catalog div.main.container .center-content figure .download-icon {
-	width: 131.5px;
-	height: 91px;
-	display: block;
-	margin: 0 auto 10px auto; /*TRBL*/
-	background: transparent url('../img/icons/cloud_download.png') no-repeat;
-	background-position: top left;
-}
-
-body.catalog div.main.container .center-content figure:hover .download-icon {
-	background-position: top right;
-}
-
-body.catalog div.main.container .center-content a:hover {
-	color: rgb(89, 143, 0);
+body.catalog div.main.container a:hover {
+	color: rgb(216, 34, 42);
 }
 
 /* @end */
