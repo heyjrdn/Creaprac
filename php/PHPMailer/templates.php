@@ -25,7 +25,7 @@ function bodyHTML($name, $email, $phone, $company, $city, $state, $country, $mes
                     <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"550\" bgcolor=\"#FFFFFF\" style=\"border: 1px solid #BBB; padding: 20px 0 20px 0;\">
                         <tr>
                             <td align=\"center\" valign=\"top\">
-                                <img src=\"http://www.creaprac.com/img/mail/email_header.png\" width=\"550\" style=\"margin-bottom: 20px;\">
+                                <img src=\"http://creaprac.x10.mx/img/email-header.png\" width=\"550\" style=\"margin-bottom: 20px;\">
                             </td>
                         </tr>
                         <tr>
