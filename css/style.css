@@ -68,7 +68,11 @@ footer {
 	background-color: #111;
 	width: 100%;
 	color: rgb(255, 255, 255);
-	height: 50px;
+	height: 35px;
+}
+
+footer .container p {
+	margin-top: 8px;
 }
 /* @end */
 
