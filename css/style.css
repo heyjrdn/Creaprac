@@ -307,6 +307,10 @@ header.main nav > ul > li > a:hover {
 	font-style: italic !important;
 }
 
+h1.mini {
+	font-size: 3em !important;
+}
+
 /* @end */
 
 /* @group INDEX */
@@ -693,13 +697,11 @@ body.each-product div.main.container header.product .text {
 }
 
 body.each-product div.main.container header.product .text h1 {
-
-	margin-bottom: 10px;
+	font-size: 4em;
 }
 
 body.each-product div.main.container header.product .text h2 {
-	font-size: 1.1em;
-	/*font-weight: 600;*/
+	font-size: 1em;
 }
 
 /* @end */
@@ -742,7 +744,9 @@ body.each-product div.main.container .product-description li {
 }
 
 .instalprac-text > p {
-	/*font-weight: 300;*/
+	font-family: "proxima-nova-n3","proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 300;
 	margin: 5px;
 }
 
