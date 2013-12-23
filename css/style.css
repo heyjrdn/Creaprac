@@ -686,7 +686,7 @@ body.each-product div.main.container header.product .text {
 	background-image: -webkit-gradient(linear, right top, left top, color-stop(0, #F0F0F0), color-stop(1, #88ADDB));
 	background-image: -webkit-linear-gradient(right, #F0F0F0 0%, #88ADDB 100%);
 	background-image: linear-gradient(to left, #F0F0F0 0%, #88ADDB 100%);
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#F0F0F0', endColorstr='#88ADDB', gradientType='1')";
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#88ADDB', endColorstr='#F0F0F0', gradientType='1')";
 }
 
  body.each-product div.main.container header.product .text h1
