@@ -18,6 +18,8 @@ Design and development for the web site
 - [PHPMailer](https://github.com/PHPMailer/PHPMailer) : A full-featured email creation and transfer class for PHP
 - [normalize.css](http://necolas.github.io/normalize.css/) : A modern, HTML5-ready alternative to CSS resets
 - [jQuery](http://jquery.com) : jQuery is a fast, small, and feature-rich JavaScript library.
+- [html5shiv](https://code.google.com/p/html5shiv/) : Adds new HTML5 elements, but also supports printing HTML5 elements and includes the default styles for HTML5 elements, like block on article and section.
+- [Respond](https://github.com/scottjehl/Respond) : A fast & lightweight polyfill for min/max-width CSS3 Media Queries (for IE 6-8, and more)
 
 ## LICENSE
 With the following licenses the code from third-parties is excluded.
