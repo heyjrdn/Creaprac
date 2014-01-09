@@ -354,16 +354,15 @@ body.index div.main.container .warehouse h4 {
 	margin-bottom: 0;
 }
 
- body.index div.main.container .warehouse .phone
-,body.index div.main.container .warehouse .fax {
+body.index div.main.container .warehouse .phone {
 	display: block;
 }
 
-body.index div.main.container .warehouse .phone:before {
+body.index div.main.container .warehouse .phone.fixed:before {
 	content: 'T. ';
 }
 
-body.index div.main.container .warehouse .fax:before {
+body.index div.main.container .warehouse .phone.fax:before {
 	content: 'Fax. ';
 }
 
