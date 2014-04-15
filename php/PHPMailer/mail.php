@@ -47,7 +47,7 @@ if ($name != '' && $email != '' && $phone != '' && $company != '' && $city != ''
 }
 
 if(!$mail->send()) {
-    header("Location: http://demo.creaprac.com/MX/contact/error.html");
+    header("Location: http://www.creaprac.com/MX/contact/error.html");
     die();
    //echo 'El mensaje no se pudo enviar.';
    //echo 'Mailer Error: ' . $mail->ErrorInfo;
@@ -84,7 +84,7 @@ $sth->execute();
 
 $dbh = null;
 
-header("Location: http://demo.creaprac.com/MX/contact/success.html");
+header("Location: http://www.creaprac.com/MX/contact/success.html");
 die();
 
 ?>
