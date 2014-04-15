@@ -15,6 +15,7 @@ $emailTo    = 'info@creaprac.com';
 $nameTo     = 'Info Creaprac';
 
 //Form Data
+$lang       =  (string) htmlentities( $_POST['lang'] );
 $name       =  (string) htmlentities( $_POST['first'] );
 $email      =  (string) htmlentities( $_POST['email'] );
 $phone      =  (string) htmlentities( $_POST['phone'] );
@@ -23,6 +24,11 @@ $city       =  (string) htmlentities( $_POST['city'] );
 $state      =  (string) htmlentities( $_POST['state'] );
 $country    =  (string) htmlentities( $_POST['country'] );
 $message    =  (string) htmlentities( $_POST['message'] );
+
+if ($lang == '')
+{
+    $lang = 'MX';
+}
 
 if ($name != '' && $email != '' && $phone != '' && $company != '' && $city != '' && $state != '' && $country != '' && $message != '')
 {
@@ -47,7 +53,7 @@ if ($name != '' && $email != '' && $phone != '' && $company != '' && $city != ''
 }
 
 if(!$mail->send()) {
-    header("Location: http://www.creaprac.com/MX/contact/error.html");
+    header("Location: http://www.creaprac.com/" . $lang . "/contact/error.html");
     die();
    //echo 'El mensaje no se pudo enviar.';
    //echo 'Mailer Error: ' . $mail->ErrorInfo;
@@ -84,7 +90,7 @@ $sth->execute();
 
 $dbh = null;
 
-header("Location: http://www.creaprac.com/MX/contact/success.html");
+header("Location: http://www.creaprac.com/" . $lang . "/contact/success.html");
 die();
 
 ?>
