@@ -76,15 +76,24 @@ try {
 
 $query = 'INSERT INTO mail (name, email, phone, company, city, state, country, message) VALUES (:name, :email, :phone, :company, :city, :state, :country, :message)';
 
+$name = html_entity_decode( $name );
+$email = html_entity_decode( $email );
+$phone = html_entity_decode( $phone );
+$company = html_entity_decode( $company );
+$city = html_entity_decode( $city );
+$state = html_entity_decode( $state );
+$country = html_entity_decode( $country );
+$message = html_entity_decode( $message );
+
 $sth = $dbh->prepare($query);
-$sth->bindParam(':name', html_entity_decode( $name ) );
-$sth->bindParam(':email', html_entity_decode( $email ) );
-$sth->bindParam(':phone', html_entity_decode( $phone ) );
-$sth->bindParam(':company', html_entity_decode( $company ) );
-$sth->bindParam(':city', html_entity_decode( $city ) );
-$sth->bindParam(':state', html_entity_decode( $state ) );
-$sth->bindParam(':country', html_entity_decode( $country ) );
-$sth->bindParam(':message', html_entity_decode( $message ) );
+$sth->bindParam(':name', $name);
+$sth->bindParam(':email', $email);
+$sth->bindParam(':phone', $phone);
+$sth->bindParam(':company', $company);
+$sth->bindParam(':city', $city);
+$sth->bindParam(':state', $state);
+$sth->bindParam(':country', $country);
+$sth->bindParam(':message', $message);
 
 $sth->execute();
 
