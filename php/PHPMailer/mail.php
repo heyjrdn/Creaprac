@@ -5,6 +5,8 @@ include 'templates.php';
 
 $mail = new PHPMailer;
 
+$useSendMail = TRUE;
+
 //Mail Data
 $Username   = 'web@creaprac.com';
 $Password   = 'creaWeb1!';
@@ -32,7 +34,15 @@ if ($lang == '')
 
 if ($name != '' && $email != '' && $phone != '' && $company != '' && $city != '' && $state != '' && $country != '' && $message != '')
 {
-    $mail->isSMTP();
+    if ($useSendMail)
+    {
+        $mail->isMail();
+    }
+    else
+    {
+        $mail->isSMTP();
+    }
+
     $mail->Host = 'smtp.creaprac.com';
     $mail->SMTPAuth = true;
     $mail->Port = 587;
