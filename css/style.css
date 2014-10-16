@@ -745,6 +745,11 @@ body.each-product div.main.container .product-description li {
 	line-height: 2;
 }
 
+.muebleprac-sizes {
+	font-weight: 400;
+	margin-top: 10px;
+}
+
 .instalprac-text {
 	position: absolute;
 	top: 0;
