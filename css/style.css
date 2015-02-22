@@ -1,15 +1,38 @@
-/* @group TypeKit FOAT */
-
-.wf-loading {
-	visibility: hidden;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/source_sans_pro/SourceSansPro-Black.eot');
+    src: url('../fonts/source_sans_pro/SourceSansPro-Black.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/source_sans_pro/SourceSansPro-Black.woff2') format('woff2'),
+         url('../fonts/source_sans_pro/SourceSansPro-Black.woff') format('woff'),
+         url('../fonts/source_sans_pro/SourceSansPro-Black.ttf') format('truetype'),
+         url('../fonts/source_sans_pro/SourceSansPro-Black.svg#source_sans_problack') format('svg');
+    font-weight: 900;
+    font-style: normal;
 }
 
-.wf-active {
-	visibility: visible;
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/source_sans_pro/SourceSansPro-Bold.eot');
+    src: url('../fonts/source_sans_pro/SourceSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/source_sans_pro/SourceSansPro-Bold.woff2') format('woff2'),
+         url('../fonts/source_sans_pro/SourceSansPro-Bold.woff') format('woff'),
+         url('../fonts/source_sans_pro/SourceSansPro-Bold.ttf') format('truetype'),
+         url('../fonts/source_sans_pro/SourceSansPro-Bold.svg#source_sans_probold') format('svg');
+    font-weight: 700;
+    font-style: normal;
 }
 
-/* @end */
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/source_sans_pro/SourceSansPro-Semibold.eot');
+    src: url('../fonts/source_sans_pro/SourceSansPro-Semibold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/source_sans_pro/SourceSansPro-Semibold.woff2') format('woff2'),
+         url('../fonts/source_sans_pro/SourceSansPro-Semibold.woff') format('woff'),
+         url('../fonts/source_sans_pro/SourceSansPro-Semibold.ttf') format('truetype'),
+         url('../fonts/source_sans_pro/SourceSansPro-Semibold.svg#source_sans_prosemibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
 
 /* @group Root Changes */
 
@@ -20,7 +43,7 @@
 }
 
 html {
-	font-family: "proxima-nova-n3","proxima-nova", sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: 300;
 	word-wrap: break-word;
@@ -37,20 +60,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-family: "proxima-nova-alt-ext-cond-n9","proxima-nova-alt-ext-cond", sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-style: normal;
 	font-weight: 900;
-	font-size: 3em;
+	font-size: 2.6em;
 }
 
 h2 {
-	font-family: "proxima-nova-n7","proxima-nova",sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-style: normal;
 	font-weight: 700;
 }
 
 h3, h4, h5, h6 {
-	font-family: "proxima-nova-n6","proxima-nova",sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-style: normal;
 	font-weight: 600;
 }
@@ -129,7 +152,7 @@ header.main nav > ul > li > a {
 	color: #666;
 	display: block;
 	padding: 10px 0;
-	font-family: "proxima-nova-n4","proxima-nova",sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: 400;
 }
@@ -331,7 +354,7 @@ body.index div.main.container section {
 }
 
 body.index div.main.container section p {
-	font-family: "minion-pro-i4","minion-pro",sans-serif;
+	font-family: Georgia, serif;
 	font-style: italic;
 	font-weight: 400;
 	font-size: 1.1em;
@@ -456,7 +479,7 @@ body.cardboards div.main.container .row .mini-cardboard a figcaption {
 }
 
 body.cardboards div.main.container .row .mini-cardboard a .impact-heading {
-	font-family: "proxima-nova-n6","proxima-nova",sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: 600;
 }
@@ -476,7 +499,7 @@ body.exhibitors div.main.container .row a {
 }
 
 body.exhibitors div.main.container .row a .impact-heading {
-	font-family: "proxima-nova-n6","proxima-nova",sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: 600;
 }
@@ -504,7 +527,7 @@ body.manuals div.main.container .row .mini-manual img {
 
 body.manuals div.main.container .row .mini-manual .manuals-caption {
 	margin-top: 10px;
-	font-family: "proxima-nova-n7","proxima-nova",sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -759,7 +782,7 @@ body.each-product div.main.container .product-description li {
 }
 
 .instalprac-text > p {
-	font-family: "proxima-nova-n3","proxima-nova",sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: 300;
 	margin: 5px;
@@ -796,7 +819,7 @@ body.each-product div.main.container .product-description li {
 	background-color: rgb(188, 206, 229);
 	text-align: left;
 	padding: 10px;
-	font-family: "proxima-nova-n3","proxima-nova",sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: 300;
 }
@@ -813,7 +836,7 @@ body.each-product div.main.container .product-description li {
 	position: absolute;
 	top: 0;
 	left: 0;
-	font-family: "proxima-nova-n3","proxima-nova",sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: 300;
 	font-size: 1.2em;
@@ -822,7 +845,7 @@ body.each-product div.main.container .product-description li {
 .cenefas-header {
 	margin-bottom: -20px;
 	text-transform: none;
-	font-family: "proxima-nova-n3","proxima-nova",sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: 300;
 }
